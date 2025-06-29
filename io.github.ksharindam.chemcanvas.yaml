@@ -28,4 +28,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksharindam/chemcanvas.git
-        commit: 6a4c194755faa63e822d11269d072bc82410c1ca
+        commit: f9ee89aa3915fe3972e63c029aea06f519422d95
