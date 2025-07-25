@@ -15,6 +15,7 @@ finish-args:
   - --socket=fallback-x11
   - --device=dri
   - --share=ipc
+  - --share=network
 
 modules:
   - name: chemcanvas
@@ -28,4 +29,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksharindam/chemcanvas.git
-        commit: f9ee89aa3915fe3972e63c029aea06f519422d95
+        commit: 2594d6fab69996ad7524d7804c5365e0e49d9225
