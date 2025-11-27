@@ -26,7 +26,8 @@ modules:
       - desktop-file-edit --set-icon=io.github.ksharindam.chemcanvas ./data/chemcanvas.desktop
       - install -Dm644 ./data/chemcanvas.desktop /app/share/applications/io.github.ksharindam.chemcanvas.desktop
       - install -Dm644 ./data/io.github.ksharindam.chemcanvas.metainfo.xml /app/share/metainfo/
+      - install -Dm644 ./data/chemcanvas-mime.xml /app/share/mime/packages/io.github.ksharindam.chemcanvas-mime.xml
     sources:
       - type: git
         url: https://github.com/ksharindam/chemcanvas.git
-        commit: d47046cf410b9b3f52d073c0e60900726ec16001
+        commit: 65d6b21b908574a30785bdc74a7ac1fd63fcfaa3
